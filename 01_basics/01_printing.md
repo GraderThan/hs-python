@@ -52,8 +52,8 @@ style: |
 ## 🚀 Starting with Grader Than Workspace IDE
 
 - Open Grader Than Workspace IDE.
-- Navigate to the folder containing your notebook.
-- Double-click on the notebook to open it.
+- Navigate to the folder `hs-python/01_basics`
+- Open the notebook `01_printing.ipynb`
 - Click on the play ▶️ button to run the notebook cells.
 
 <!-- 
@@ -61,6 +61,15 @@ style: |
 - Emphasize the importance of knowing how to navigate through the IDE to find and open the required notebook.
 - Highlight the simplicity of running code by using the play button, encouraging students to actively engage with the code by running it themselves.
 -->
+
+---
+
+<!-- _footer: ""  -->
+<!-- _header: "" -->
+
+## 🚀 Opening a Jupyter Notebook
+
+![opening a Jupyter Notebook](../media/01_printing/opening-notebook.gif)
 
 ---
 

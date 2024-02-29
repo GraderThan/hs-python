@@ -215,7 +215,7 @@ print(name + "man")
 
 ## 🍳 Cooking with Code
 
-- Use the assigned project in your Grader Than IDE Jupyter Notebook.
+- Use the assigned project in Grader Than Feedback at `auto.graderthan.com`
 - Craft a recipe for your favorite meal using `print` statements.
 - Utilize variables to hold your ingredients list.
 - Incorporate these variables within `print` statements to detail the recipe creation steps.

@@ -6,8 +6,8 @@ theme: uncover
 //class: invert
 lang: en
 size: 16:9
-header: ![Grader Than Logo w:40](../images/gt-logo.png)
-footer: © <a href="https://www.graderthan.com/">Grader Than Technology</a>
+header: ![Grader Than Logo w:40](../media/gt-logo.png)
+footer: © <a href="https://www.graderthan.com/">Grader Than Technology LLC</a>
 enableHtml: true
 style: |
     :root {
@@ -29,6 +29,9 @@ style: |
     pre code {
         padding: .7rem !important;
         border-radius: 8px;
+    }
+    section {
+        font-family: 'Poppins' 'Roboto', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
     }
 ---
 
@@ -75,6 +78,16 @@ style: |
 -->
 
 ---
+<!-- _footer: ""  -->
+<!-- _header: "" -->
+
+<video src="../media/01_printing/printing.mp4" controls width="100%"></video>
+
+<!-- 
+[video]{../media/01_printing/printing.mp4}
+-->
+
+---
 
 ## 🖨️ Printing "Hello world!"
 
@@ -107,6 +120,18 @@ print(name)
 <!-- 
 - Introduce the concept of variables as containers for storing data.
 - Explain how a string variable specifically stores text, using a simple assignment and print statement to illustrate.
+-->
+
+---
+
+
+<!-- _footer: ""  -->
+<!-- _header: "" -->
+
+<video src="../media/01_printing/with_variables_comma.mp4" controls width="100%"></video>
+
+<!-- 
+[video]{../media/01_printing/with_variables_comma.mp4}
 -->
 
 ---
@@ -148,6 +173,18 @@ print("Tony", name)
 
 ---
 
+
+<!-- _footer: ""  -->
+<!-- _header: "" -->
+
+<video src="../media/01_printing/string_concatenation.mp4" controls width="100%"></video>
+
+<!-- 
+[video]{../media/01_printing/string_concatenation.mp4}
+-->
+
+---
+
 ## ✨ String Concatenation Magic
 
 ```python
@@ -179,4 +216,3 @@ print(name + "man")
 - The code example demonstrates how to use variables to store ingredient information, showing practical applications of variables.
 - Encourages students to think creatively about how code can be used to organize and present information, reinforcing the use of `print` statements for output.
 -->
- 

@@ -6,8 +6,8 @@ theme: uncover
 //class: invert
 lang: en
 size: 16:9
-header: ![Grader Than Logo w:40](../images/gt-logo.png)
-footer: © <a href="https://www.graderthan.com/">Grader Than Technology</a>
+header: ![Grader Than Logo w:40](../media/gt-logo.png)
+footer: © <a href="https://www.graderthan.com/">Grader Than Technology LLC</a>
 enableHtml: true
 style: |
     :root {
@@ -29,6 +29,9 @@ style: |
     pre code {
         padding: .7rem !important;
         border-radius: 8px;
+    }
+    section {
+        font-family: 'Poppins' 'Roboto', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
     }
 ---
 
@@ -107,9 +110,9 @@ print(name + "man")
 
 | Data Type | Description                             | Example |
 |:-----------|:-----------------------------------------|---------|
-| String (`str`) | Text enclosed in quotes.            | `"Hello"` |
-| Integer (`int`) | Whole numbers without a decimal.  | `5`      |
-| Decimal (`float`) | Numbers with a decimal point.     | `3.14`   |
+| String<br>(`str`) | Text enclosed in quotes.            | `"Hello"` |
+| Integer<br>(`int`) | Whole numbers without a decimal.  | `5`      |
+| Decimal<br>(`float`) | Numbers with a decimal point.     | `3.14`   |
 
 <!-- 
 - This slide introduces the basic data types in Python, focusing on strings, integers, and decimals (floats).
@@ -265,7 +268,7 @@ print("I would buy " + str(donuts) + " donuts if I had money!")
   - Example for blue: 
   
   ```py
-  print(\033[34m` + "This text will be blue.")
+  print("\033[34m" + "This text will be blue.")
   ```
 
 <!-- 
@@ -277,11 +280,11 @@ print("I would buy " + str(donuts) + " donuts if I had money!")
 <!-- _footer: "" -->
 
 ```py
-print("\033[<COLOR CODE>m")
+print("\033[<COLOR CODE>m"+"colorful text")
 ```
 <table>
 <tr>
-<td style="font-size:80%">
+<td style="font-size:65%">
 
 | Color     | Color Code |
 |-----------|------------|

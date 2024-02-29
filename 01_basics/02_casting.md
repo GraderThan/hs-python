@@ -162,10 +162,10 @@ So, what type of variable is `x`?
 <!-- _footer: ""  -->
 <!-- _header: "" -->
 
-<video src="../media/02_casting/string_concatenation_casting.mp4" controls width="100%"></video>
+<video src="../media/01_printing/string_concatenation_casting.mp4" controls width="100%"></video>
 
 <!-- 
-[video]{../media/02_casting/string_concatenation_casting.mp4}
+[video]{../media/01_printing/string_concatenation_casting.mp4}
 -->
 
 ---

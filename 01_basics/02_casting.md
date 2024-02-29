@@ -158,6 +158,18 @@ So, what type of variable is `x`?
 
 ---
 
+
+<!-- _footer: ""  -->
+<!-- _header: "" -->
+
+<video src="../media/02_casting/string_concatenation_casting.mp4" controls width="100%"></video>
+
+<!-- 
+[video]{../media/02_casting/string_concatenation_casting.mp4}
+-->
+
+---
+
 ## 🧩 Why Doesn't This Work?
 
 - Trying to print a sentence with a number:
